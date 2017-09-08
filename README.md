@@ -1,8 +1,8 @@
 # generic-csv-2-flare
 Easy, automated method to convert csv files to hierarchical json files for use with d3 in the flare format. 
 
-# how to use
-First, have a table. Here's a generic one. 
+### how to use
+Have a table. Here's a generic one. 
 
 | Method  | Methods to Capture Endpoints  | Therapeutic Area | Target  | Comorbidities  | Known Affects | Reference  | Data  | Functionality |
 |---------|-------------------------------|------------------|---------|----------------|---------------|------------|-------|---------------|
@@ -11,7 +11,7 @@ First, have a table. Here's a generic one.
 | Method2 | Methods to Capture Endpoints1 | Area1            | Target1 | Comorbidities1 | Affects1      | Reference1 | Data1 | Func1         |
 | Method2 | Methods to Capture Endpoints2 | Area2            | Target2 | Comorbidities2 | Affects2      | Reference2 | Data2 | Func2         |
 
-First define the grouping order for your dataset. Don't worry, you can remove columns you don't want. Just hardcode the order. 
+Then define the grouping order for your dataset. Don't worry, you can remove columns you don't want. Just hardcode the order. 
 ```
 grouping_order = ['Method',
                   'Methods to Capture Endpoints',
