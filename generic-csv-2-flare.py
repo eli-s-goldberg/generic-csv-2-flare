@@ -9,7 +9,7 @@ This utility converts the training data into a format that can be displayed easi
 it converts a flat CSV file to a hierarchical json. It should be able to handle a csv with different column lengths,
 but as I don't need this I haven't tested it.
 
-Author: Eli Goldberg December, 2015; updated September 2017
+Author: Eli Goldberg December, 2015; updated September 2017; Special thanks to Sami Galal.
 
 '''
 
